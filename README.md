@@ -6,7 +6,7 @@ Este proyecto lo saqué adelante porque en el hospital era un caos manejar todo 
 
 ---
 
-### 🛠️ LA JUGADA TÉCNICA (CÓMO LO ARMÉ)
+### Ejecución
 
 * **Lógica pura con JS:** No quería que la página esté cargando a cada rato, así que usé JavaScript para que todo sea al toque. Los datos viven en el `localStorage`, así que si se te apaga la PC o cierras la ventana sin querer, no pierdes ni un solo dato.
 * **Base de datos portátil:** Le metí un sistema para exportar e importar todo en archivos `.json`. Esto sirve para que puedas bajar tu trabajo en un USB y seguir en cualquier otra máquina dándole al botón de "Editar Trabajo".
@@ -15,7 +15,7 @@ Este proyecto lo saqué adelante porque en el hospital era un caos manejar todo 
 
 ---
 
-### 🚀 LO QUE HACE QUE EL PANEL SEA EFICIENTE
+### Eficiencia 
 
 * **Cero errores en montos:** Mientras vas tipeando el dinero, el sistema te pone el "S/." y las comas solo, así te evitas fallos de digitación.
 * **Edición rápida:** Si ves algo mal en la tabla, haces clic en la celda y corriges ahí mismo (`contenteditable`), se guarda al instante.
